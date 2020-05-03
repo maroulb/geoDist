@@ -33,7 +33,7 @@ returns geo coordinates to a given german zip code by using the *PLT.tab* file f
 
     option:
     -dm: calculates distance matrix if [argument] is a comma-separated list
-    (!without whitespaces) of valid german zip codes
+    (!without whitespaces!) of valid german zip codes
 
     argument:
     a) two space-separated german zip-codes to calculate distance between them
