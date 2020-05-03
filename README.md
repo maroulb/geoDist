@@ -18,7 +18,7 @@ returns the distance (in km) between two given locations (zip1, zip2) represente
 
     geoDistZipDF(zips)
 
-returns in a classical [distances matrix](https://en.wikipedia.org/wiki/Distance_matrix) codified in a [pandas DataFrame](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html) for multiple given locations represented as s list (zips) of valid german ZIP codes.
+returns in a classical [distances matrix](https://en.wikipedia.org/wiki/Distance_matrix) codified in a [pandas DataFrame](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html) for multiple given locations represented as a list (zips) of valid german ZIP codes.
 
 ### helper function
 
