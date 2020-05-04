@@ -24,7 +24,7 @@ returns in a classical [distances matrix](https://en.wikipedia.org/wiki/Distance
 
     getCoord(zip)
 
-returns geo coordinates to a given german zip code by using the *PLT.tab* file from [OpenGeoDB](http://opengeodb.org/wiki/OpenGeoDB_Downloads) to map the first to the latter
+returns geo coordinates to a given german zip code by using the *PLZ.tab* file from [OpenGeoDB](http://opengeodb.org/wiki/OpenGeoDB_Downloads) to map the first to the latter
 
 
 ### usage standalone cli version
