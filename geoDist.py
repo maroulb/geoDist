@@ -32,7 +32,20 @@ def geoDistZip(zip1, zip2):
     return dist
 
 
+def filterDuplicates(zips):
+    noDuplicates = []
+    foundDuplicates = []
+    for zip in zips:
+        if zip not in noDuplicates:
+            noDuplicates.append(zip)
+        else:
+            foundDuplicates.append(zip)
+    print('Duplicates: ' + str(len(foundDuplicates)))
+    return noDuplicates
+
+
 def geoDistZipDF(zips):
+    zips = filterDuplicates(zips)
     distDF = pd.DataFrame(columns=zips, index=zips)
     dests = zips
     for zip in zips:
